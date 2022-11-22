@@ -17,10 +17,14 @@ app.get("/pokemon", (req, res) => {
     res.render("Index", {pokemon: pokemon})
 })
 
+app.get("/pokemon/:id", (req, res) => {
+    res.render("Show", pokemon [req.params.id])
+})
 
 
 // app.get('/pokemon/:indexOfPokemonArray', (req, res) => {
-//     res.send(pokemon[req.params.indexOfPokemonArray]);
+//     // res.send(pokemon[req.params.indexOfPokemonArray]);
+//     res.render('Show',pokemon[req.params.indexOfPokemonArray])
 // })
 
 
