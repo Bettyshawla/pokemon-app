@@ -9,7 +9,7 @@ const myStyle = {
 class Show extends React.Component {
     render() {
         const { name, img } = this.props
-        const pokemonName = name.toUpperCase()
+        const pokemonName = name
         return (
             <div>
 

@@ -20,6 +20,7 @@ class Index extends React.Component {
                                 return (
                                     <li key={i}>
                                         The{' '}
+                                       
                                         <a style={{ color: '#0519A4' }} href={`/pokemon/${i}`}>
                                             {/* charAt(0).toUpperCase() = allow us to capitalize the first letter of the word */}
                                             {
