@@ -22,11 +22,6 @@ app.get("/pokemon/:id", (req, res) => {
 })
 
 
-// app.get('/pokemon/:indexOfPokemonArray', (req, res) => {
-//     // res.send(pokemon[req.params.indexOfPokemonArray]);
-//     res.render('Show',pokemon[req.params.indexOfPokemonArray])
-// })
-
 
 
 
