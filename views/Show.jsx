@@ -8,7 +8,7 @@ const myStyle = {
 
 class Show extends React.Component {
     render() {
-        const { name, img } = this.props
+        const { name, img } = this.props.pokemon
         const pokemonName = name
         return (
             <div>
@@ -17,7 +17,7 @@ class Show extends React.Component {
                    
                     <h1 style={myStyle}>Gotta Catch 'Em All</h1>
                     <h2 style={{color: '#4D8CEA', textAlign: 'center'}}>{pokemonName}</h2>
-                    <img style={{width: '60vw', height:"70vh"}} src={img + '.jpg'} />
+                    <img  src={img + '.jpg'} />
                     <br />
                     <br />
                     <a style={{color: '#99C4ED', fontWeight: '', fontSize: '25px'}}href ={`/pokemon/`}>Back</a>
@@ -29,3 +29,4 @@ class Show extends React.Component {
 }
 module.exports = Show;
 
+// style={{width: '60vw', height:"70vh"}}

@@ -18,7 +18,7 @@ class New extends React.Component {
                     {/* NOTE: action will be the route, method will be the HTTP verb */}
                     <form action="/pokemon" method="POST">
                         Name: <input type="text" name="name" /><br />
-                        Color: <input type="text" name="img" /><br />
+                        Image: <input type="text" name="img" /><br />
                         <input type="submit" value="Create Pokemon" />
                     </form>
                 </body>
