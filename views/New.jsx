@@ -13,9 +13,8 @@ class New extends React.Component {
                 <body style={{ backgroundColor: '#AC888D' }}>
                     <h1 style={myStyle}>New Pokemon Page</h1>
                     <nav>
-                        <a href="/pokemon">Home Page</a>
+                        <a style={{color: '#24479F', fontSize: '20px'}}href="/pokemon">Home Page</a>
                     </nav>
-                    {/* NOTE: action will be the route, method will be the HTTP verb */}
                     <form action="/pokemon" method="POST">
                         Name: <input type="text" name="name" /><br />
                         Image: <input type="text" name="img" /><br />
